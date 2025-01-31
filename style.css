@@ -1,0 +1,135 @@
+ /* Base styles for all cards */
+.dynamic-card {
+    width: 90%;
+    max-width: 400px;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: var(--border-radius);
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    overflow: hidden;
+    position: relative;
+}
+
+/* Profile card styles */
+.card-profile .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem;
+}
+
+.card-profile .card-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.card-profile .card-social-link {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.card-profile .card-social-link:hover {
+    color: #0056b3;
+}
+
+/* Product card styles */
+.card-product .card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin: 0.5rem 0;
+}
+
+.card-product .card-rating {
+    color: #ffc107;
+    margin: 0.5rem 0;
+}
+
+.card-product .card-rating .fa-star.active {
+    color: #ffc107;
+}
+
+/* Testimonial card styles */
+.card-testimonial .testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem;
+}
+
+.card-testimonial .card-quote {
+    font-style: italic;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.card-testimonial .card-author {
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.card-testimonial .card-role {
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+/* News card styles */
+.card-news .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+/* Service card styles */
+.card-service .card-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+/* Team card styles */
+.card-team .team-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem;
+}
+
+/* Pricing card styles */
+.card-pricing .card-features {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.card-pricing .card-features li {
+    margin: 0.5rem 0;
+}
+
+/* Blog card styles */
+.card-blog .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+/* Event card styles */
+.card-event .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
